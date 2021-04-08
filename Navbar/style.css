@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(2,0,36);
+    background-image: radial-gradient(circle, #00d4ff 0%, rgba(9,9,121,1) 100%);
+    color:black;
+    font-family: 'DM Mono', monospace;
+}
+
+h1 {
+    justify-content: center;
+    -webkit-text-fill-color:lavenderblush;
+  }

@@ -1,0 +1,42 @@
+[
+  {
+    "stateCode": "AK",
+    "stateName": "Alaska",
+    "metroList": [
+      {
+        "pageDesc": "testing",
+        "pageKeywords": "testing",
+        "metroName": "AlaskaMetro-1",
+        "pageTitle": "Alaska Metro 1",
+        "localisedContent": "Localised content for Alabama content 1\n"
+      }
+    ]
+  },
+  {
+    "stateCode": "AL",
+    "stateName": "Alabama",
+    "metroList": [
+      {
+        "pageDesc": "<p>Albertville</p>\n",
+        "pageKeywords": "<p>Albertville</p>\n",
+        "metroName": "Albertville",
+        "pageTitle": "Albertville",
+        "localisedContent": "testing for alsaka content"
+      },
+      {
+        "pageDesc": "testing",
+        "pageKeywords": "testing",
+        "metroName": "Alabama Metro 1",
+        "pageTitle": "AlabamaMetro1",
+        "localisedContent": "test jvjvnbvnbvhgvhjgvhcngcvxvcxvczcxvzcxgcfgghfjhvnbvn\n"
+      },
+      {
+        "pageDesc": "Maintain your car, truck or SUV in high performance with service offers from your Anniston, Al Toyota dealer. Schedule your next care appointment now.",
+        "pageKeywords": "Anniston car maintenance special offers, clutch replacement coupons Anniston, Alabama, toyota oil and filter change offers in Anniston, toyota car service in Anniston, car service coupons, schedule toyota service in Anniston, toyota tire alignment, toyota brake service, Anniston tire rotation",
+        "metroName": "Anniston",
+        "pageTitle": "Service Offers Near Anniston, Al",
+        "localisedContent": "\"Sign up for a Toyota maintenance plan today, and repair your car at no extra cost\"\n        ,\n         \"With ToyotaCare you will be able to keep your automobile in peak condition for ages. Whether you need an oil change, tire rotations, or state automobile inspection, we'll be here for you. Since all of our Toyota dealerships and service centers utilize factory certified OEM components, all of our fixes are sure to keep your car, truck, or SUV in peak condition. Stop by your regional Toyota Service Center or use the search bar above to find your nearest dealership.\"\n        ,\n         \"What happens when your Toyotacare plan expires? The ToyotaCare Plus extended service program lasts longer, giving you more security and safety whilst on the road. Contact your local Toyota dealership now!\"\n        ,\n         \"Ensure that you're protected by locking in battery jump starts, lockout security, emergency fuel delivery, on-site tire assistance, towing, and winching available at the touch of a button. With the Toyota Owners App, your ToyotaCare roadside providers are closer than ever before. ToyotaCare is simple, convenient, and it ensures that your Toyota will stay in good condition at no additional cost to you.\"\n        ,\n         \"Trust a Toyota Service Center in Anniston, Alabama for repair service today, and save big with our special deals\"\n        ,\n         \"Don't place yourself or others on the road at risk. If you have a trunk or hood that won't close securely, it may eventually obscure your vision suddenly. Trust your committed Toyota Service Centers to perform your body work. With our fantastic coupons and discounts, you'll leave with peace of mind along with a trusted ride.\""
+      }
+    ]
+  }
+]

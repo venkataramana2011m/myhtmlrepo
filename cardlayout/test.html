@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CSS Equal Columns</title>
+<style type="text/css">
+* {
+	margin:0;
+	padding:0
+}/* for demo only - use a prper reset instead */
+p { margin:0 0 1em 0;padding:5px; }
+body {
+	text-align:center;
+	background:#CC6699;
+	padding:25px 0;
+}
+#wrapper {
+	width:65%;
+	margin:0 auto;
+	text-align:left;
+	background:#fff;
+	border:5px solid #000;
+	padding:10px;
+}
+#header, #footer {
+	background:#fff;
+	padding:10px;
+	zoom:1.0;/* haslayout fix ie*/
+	border:1px solid #000;
+	clear:both;
+}
+#header h1, #footer p {
+	text-align:center;
+	margin:0 0 1em
+}
+#inner {
+	position:relative;
+	width:100%;
+	clear:both;
+	z-index:2;
+	margin:10px 0;
+	overflow:hidden;
+}
+#sidebar {
+	width:300px;
+	z-index:3;
+	position:relative;
+	float:left;
+}
+#main {
+	position:relative;
+	z-index:2;
+	margin:0 0 0 326px;
+	zoom:1.0;/*ie haslayout fix */
+}
+#inner2 {
+	width:100%;
+	float:left;
+}
+/* use absolute overlays for full column colours and borders*/
+.col {
+	width:298px;
+	position:absolute;
+	z-index:0;
+	left:0;
+	top:0;
+	bottom:0;
+	border:1px solid #000;
+	background:red;
+}
+.two {
+	background:#CC3399;
+	left:320px;
+	right:0;
+	width:auto;
+}
+</style>
+<!--[if lte IE 6]>
+<style type="text/css">
+#main{zoom:1.0}
+.col {
+	top:auto;
+	right:auto;
+	height:1000em;
+}
+#sidebar, #main { border-top:1px solid #000 }
+.two span{zoom:1.0;display:block;}
+</style>
+<![endif]-->
+
+</head>
+
+<body>
+<div id="wrapper">
+		<div id="header">
+				<h1>Equal columns -  - Read the <a href="http://www.search-this.com/2007/02/26/how-to-make-equal-columns-in-css/">article</a></h1>
+		</div>
+		<div id="inner">
+				<div id="sidebar">
+						<p>This is some text : This is some text : This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some
+								text </p>
+				</div>
+				<div id="main">
+						<div id="inner2">
+								<h2>Equal Columns</h2>
+								<p>This is some text : This is some text : This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some
+										text </p>
+								<p>This is some text : This is some text : This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some
+										text </p>
+								<p>This is some text : This is some text : This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some text :This is some text : This is some
+										text </p>
+						</div>
+				</div>
+				<div class="col one"></div>
+				<!-- col one and two supply full length column colours and borders and hold not content -->
+				<div class="col two"><span></span></div>
+		</div>
+		<div id="footer">
+				<p>Footer</p>
+		</div>
+</div>
+</body>
+</html>
