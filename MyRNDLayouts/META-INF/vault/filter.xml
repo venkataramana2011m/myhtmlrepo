@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/myaem65training/components/cardlayout"/>
+    <filter root="/apps/myaem65training/components/userslistingcomponent"/>
+</workspaceFilter>
